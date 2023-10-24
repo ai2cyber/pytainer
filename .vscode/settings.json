@@ -1,0 +1,42 @@
+{
+  "autoDocstring.docstringFormat": "docblockr",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "conventionalCommits.scopes": ["lib", "misc", "container", "providers"],
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.renderWhitespace": "all",
+  "explorer.excludeGitIgnore": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "python.analysis.addImport.exactMatchOnly": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.enablePytestSupport": false,
+  "python.analysis.importFormat": "absolute",
+  "python.analysis.inlayHints.callArgumentNames": "all",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.typeCheckingMode": "strict",
+  "python.testing.unittestArgs": ["-v", "-s", "./tests", "-p", "test*.py"],
+  "python.testing.unittestEnabled": true,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.wordBasedSuggestions": false
+  },
+  "[toml]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoIndent": "keep",
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  }
+}

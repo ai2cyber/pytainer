@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        // Developer Experience
+        "njpwerner.autodocstring",
+        "streetsidesoftware.code-spell-checker",
+        "mohammadbaqer.better-folding",
+        "aaron-bond.better-comments",
+
+        // Python
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "ms-python.black-formatter",
+
+        // Git
+        "vivaxy.vscode-conventional-commits",
+    ]
+}
